@@ -1,0 +1,2 @@
+rootProject.name='nac'
+include ':app'
