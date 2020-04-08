@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NAC 2EMR</string>
+    <string name="meli">Mercado Livre</string>
+    <string name="maga">Magazine Luiza</string>
+    <string name="am">Americanas</string>
+    <string name="sub">Submarino</string>
+    <string name="mat">Matheus Leite Pacheco</string>
+    <string name="rm">RM 82303</string>
+    <string name="curso">Engenharia Mecatrônica - 2º ano</string>
+</resources>
