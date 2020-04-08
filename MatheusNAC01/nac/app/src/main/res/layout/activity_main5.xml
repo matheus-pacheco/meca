@@ -6,20 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Main5Activity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Matheus Leite RM82303"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="240dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="voltar"
-        android:onClick="startmainActivity"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="154dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matheus Leite RM82303" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startmainActivity"
+            android:text="voltar" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

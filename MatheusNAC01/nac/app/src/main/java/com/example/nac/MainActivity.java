@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Main2Activity);
     }
     public void startmain3Activity (View view){
-        Intent Main3Activity = new Intent(this, MainActivity.class);
+        Intent Main3Activity = new Intent(this, Main3Activity.class);
         startActivity(Main3Activity);
     }
     public void startmain4Activity (View view){
